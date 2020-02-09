@@ -7,10 +7,14 @@
 
 }
 
-#information-perso{
-	background-color: #D4E157;
-	margin: 0;
+#nom{
+	display: none;
+}
 
+#information-perso{
+	background-color:  #feca07;
+	width: 400px;
+	
 }
 
 .deco{
@@ -22,22 +26,55 @@
 }
 
 #information-pro{
-	border: 5px red solid;
-	flex:1;
+	width: 800px;
+	
+
 }
 
-.dates{
+ .description h3{	
 	display: flex;
-	justify-content: space-around;
-
-}
-
-.description h3{	
-	display: inline; 
 
 }
 
 .titre{
 	color: #feca07;
-	text-decoration:underline;
+	border-bottom: solid;
+	border-color: #feca07;
+	padding: 10px;
+	margin-left: 20px; 
+}
+
+.liste{
+	display: flex;
+	justify-content: ;
+	margin-left: 20px;
+	flex-wrap: wrap;
+
+}
+
+.description{
+	padding: 10px;
+	
+	
+}
+
+.dates{
+	margin-right: 70px;
+	padding: 10px;
+	width: 150px;
+	width
+
+}
+
+#yellow{
+	color: #feca07; 
+}
+
+#moi{
+	padding: 10px 10px 5px 60px;
+}
+
+#underline{
+	text-decoration-line: underline;
+	text-decoration-color: #feca07;
 }
