@@ -1,23 +1,36 @@
-.blocks{
+.blocks {
 	border: 1px grey solid;
 	display: flex;
 	justify-content:center;
 	flex-wrap: wrap;
+	margin: 50px;
 }
-	.information-perso{
-		background-color: yellow;
-		border:5px black solid;
-		margin:auto; 
-		min-width: 400px;
-		
-	}
-	.deco{
-		background-color: grey;
-	}
-	.information-pro{
 
-		border:5px red solid;
-		margin:auto;
-		min-width: 400px
-		flex:1;
-	}
+#information-perso{
+	background-color: yellow;
+	border: 5px black solid;
+
+}
+
+.deco{
+	background-color: grey;
+}
+
+#information-pro{
+	border: 5px red solid;
+	flex:1;
+}
+
+.formation{
+	display: flex;
+}
+
+.dates{
+	display: flex;
+
+}
+
+.description h3{	
+	display: inline; 
+
+}
