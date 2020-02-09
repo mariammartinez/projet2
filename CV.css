@@ -4,16 +4,21 @@
 	justify-content:center;
 	flex-wrap: wrap;
 	margin: 50px;
+
 }
 
 #information-perso{
-	background-color: yellow;
-	border: 5px black solid;
+	background-color: #D4E157;
+	margin: 0;
 
 }
 
 .deco{
-	background-color: grey;
+	background-color: #B0BEC5;
+}
+
+#loisir{
+	display: flex;
 }
 
 #information-pro{
@@ -21,16 +26,18 @@
 	flex:1;
 }
 
-.formation{
-	display: flex;
-}
-
 .dates{
 	display: flex;
+	justify-content: space-around;
 
 }
 
 .description h3{	
 	display: inline; 
 
+}
+
+.titre{
+	color: #feca07;
+	text-decoration:underline;
 }
