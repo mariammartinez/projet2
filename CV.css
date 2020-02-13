@@ -7,18 +7,27 @@
 
 }
 
+body{
+	font-family: georgia;
+}
+
 #nom{
 	display: none;
 }
 
+#photo{
+	border-radius: 50%;
+	margin-left: 50px;
+}
+
 #information-perso{
-	background-color:  #feca07;
+	background-color: #c1666b;
 	width: 400px;
 	
 }
 
 .deco{
-	background-color: #B0BEC5;
+	background-color: #d4b483;
 }
 
 #loisir{
@@ -27,7 +36,7 @@
 
 #information-pro{
 	width: 800px;
-	
+	background-color:#f9f8f8;
 
 }
 
@@ -37,9 +46,9 @@
 }
 
 .titre{
-	color: #feca07;
+	color: #c1666b;
 	border-bottom: solid;
-	border-color: #feca07;
+	border-color: #c1666b;
 	padding: 10px;
 	margin-left: 20px; 
 }
@@ -47,13 +56,15 @@
 .liste{
 	display: flex;
 	justify-content: ;
-	margin-left: 20px;
+	margin-left: 20px 20px 20px 20px;
 	flex-wrap: wrap;
 
 }
 
 .description{
 	padding: 10px;
+	margin-right: 10px;
+	
 	
 	
 }
@@ -62,12 +73,12 @@
 	margin-right: 70px;
 	padding: 10px;
 	width: 150px;
-	width
 
 }
 
 #yellow{
-	color: #feca07; 
+	color: #c1666b;
+
 }
 
 #moi{
@@ -76,5 +87,19 @@
 
 #underline{
 	text-decoration-line: underline;
-	text-decoration-color: #feca07;
+	text-decoration-color: #c1666b;
+}
+
+.reco{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenu{
+	list-style-type: none;
+
+}
+
+.fa-bullseye{
+	color: #c1666b;
 }
