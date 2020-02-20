@@ -4,7 +4,6 @@
 	justify-content:center;
 	flex-wrap: wrap;
 	margin: 50px;
-
 }
 
 body{
@@ -17,17 +16,33 @@ body{
 
 #photo{
 	border-radius: 50%;
-	margin-left: 50px;
+
+}
+
+figure{
+	text-align: center;
+}
+
+#prenom{
+	text-align: center;
+	font-size: larger;
 }
 
 #information-perso{
 	background-color: #c1666b;
-	width: 400px;
-	
+	width: 20%;
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+	border: solid black 1px;
+	margin-right: 0;
+
 }
 
-.deco{
+#information-perso h2{ 
 	background-color: #d4b483;
+	padding-left: 10px;	
+
 }
 
 #loisir{
@@ -35,14 +50,13 @@ body{
 }
 
 #information-pro{
-	width: 800px;
+	width: 60%;
 	background-color:#f9f8f8;
-
 }
 
  .description h3{	
-	display: flex;
-
+	margin: 0;
+	padding: 0;	
 }
 
 .titre{
@@ -55,30 +69,28 @@ body{
 
 .liste{
 	display: flex;
-	justify-content: ;
-	margin-left: 20px 20px 20px 20px;
-	flex-wrap: wrap;
-
+	margin-left: 20px;
+		
 }
-
+ 
 .description{
-	padding: 10px;
-	margin-right: 10px;
 	
-	
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 80%;
+	margin-left: 5%;
+	word-break: break-word;
+
 }
 
 .dates{
-	margin-right: 70px;
-	padding: 10px;
-	width: 150px;
-
+	width: 20%;
 }
 
 #yellow{
 	color: #c1666b;
-
 }
 
 #moi{
@@ -95,11 +107,60 @@ body{
 	justify-content: space-between;
 }
 
+.nonpuces {
+	list-style-type: none;
+}
+
 .contenu{
 	list-style-type: none;
-
 }
 
 .fa-bullseye{
 	color: #c1666b;
 }
+
+.fa-dot-circle{
+	color: #c1666b;
+}
+
+#loisir{
+	display: flex;
+	justify-content: space-around;
+}
+
+#contact{
+	list-style-type: none;
+	padding: 0;
+}
+#contact li{
+	padding: 10px;
+}
+#apropos p{
+	padding: 10px;
+}
+
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    #information-perso, #information-pro{
+    	width: 100%;
+    	display: block;
+
+    }
+
+
+    #nom{
+    	display: contents;
+
+    }
+    #description{
+    	overflow-wrap: break-word;
+    	
+    }
+
+   .reco{
+   		display: block;
+   		text-align: center;
+
+   }
