@@ -1,5 +1,4 @@
 .blocks {
-	border: 1px grey solid;
 	display: flex;
 	justify-content:center;
 	flex-wrap: wrap;
@@ -16,7 +15,6 @@ body{
 
 #photo{
 	border-radius: 50%;
-
 }
 
 figure{
@@ -24,8 +22,8 @@ figure{
 }
 
 #prenom{
-	text-align: center;
 	font-size: larger;
+	padding-left: 20px;
 }
 
 #information-perso{
@@ -34,15 +32,12 @@ figure{
 	min-width: 300px;
 	display: flex;
 	flex-direction: column;
-	border: solid black 1px;
 	margin-right: 0;
-
 }
 
 #information-perso h2{ 
 	background-color: #d4b483;
 	padding-left: 10px;	
-
 }
 
 #loisir{
@@ -64,13 +59,13 @@ figure{
 	border-bottom: solid;
 	border-color: #c1666b;
 	padding: 10px;
-	margin-left: 20px; 
+	margin-left: 20px;
+	margin-right: 20px; 
 }
 
 .liste{
 	display: flex;
 	margin-left: 20px;
-		
 }
  
 .description{
@@ -82,8 +77,9 @@ figure{
 	width: 80%;
 	margin-left: 5%;
 	word-break: break-word;
-
+	text-align: left;
 }
+
 
 .dates{
 	width: 20%;
@@ -131,6 +127,7 @@ figure{
 #contact{
 	list-style-type: none;
 	padding: 0;
+	font-weight: bold;
 }
 #contact li{
 	padding: 10px;
@@ -143,24 +140,57 @@ figure{
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 @media screen and (max-width: 1024px)
 {
+	.blocks{
+		margin: 0;
+	}
+
+
     #information-perso, #information-pro{
     	width: 100%;
     	display: block;
-
     }
-
 
     #nom{
-    	display: contents;
+    	display: block;
+    	text-align: center;
+     }
 
-    }
+     #prenomcouleur{
+     	color: #d4b483;
+     }
+
     #description{
     	overflow-wrap: break-word;
-    	
-    }
-
-   .reco{
-   		display: block;
-   		text-align: center;
-
    }
+
+}
+
+   /* Nouvelles règles si la fenêtre fait au plus 850px de large */
+
+@media screen and (max-width: 852px)
+{
+
+ 
+   	.liste{
+   		display: block;
+   		margin-left: 0;
+   	}
+   .description{
+    	margin-left: 0;
+    	margin-top: 10px; 
+   }
+
+   .description h4{
+   		margin: 0;
+   }
+
+   .dates{
+   		width: auto;
+   }
+
+    .reco{
+   	display: block;
+   	margin-left: 0;
+   }
+
+}
