@@ -49,6 +49,14 @@ figure{
 	background-color:#f9f8f8;
 }
 
+#information-pro p{
+	margin-top: 0;
+}
+
+#information-pro h4{ 
+	margin-top: 0;
+ }
+
  .description h3{	
 	margin: 0;
 	padding: 0;	
@@ -127,7 +135,6 @@ figure{
 #contact{
 	list-style-type: none;
 	padding: 0;
-	font-weight: bold;
 }
 #contact li{
 	padding: 10px;
@@ -136,14 +143,12 @@ figure{
 	padding: 10px;
 }
 
-
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 @media screen and (max-width: 1024px)
 {
 	.blocks{
 		margin: 0;
 	}
-
 
     #information-perso, #information-pro{
     	width: 100%;
@@ -162,15 +167,12 @@ figure{
     #description{
     	overflow-wrap: break-word;
    }
-
 }
 
    /* Nouvelles règles si la fenêtre fait au plus 850px de large */
 
 @media screen and (max-width: 852px)
 {
-
- 
    	.liste{
    		display: block;
    		margin-left: 0;
@@ -192,5 +194,4 @@ figure{
    	display: block;
    	margin-left: 0;
    }
-
 }
