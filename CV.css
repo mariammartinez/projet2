@@ -111,11 +111,7 @@ figure{
 	justify-content: space-between;
 }
 
-.nonpuces {
-	list-style-type: none;
-}
-
-.contenu{
+ul{
 	list-style-type: none;
 }
 
