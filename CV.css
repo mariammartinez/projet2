@@ -108,7 +108,12 @@ figure{
 
 .reco{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.reco div{
+	padding: 20px;
+	margin: 0;
 }
 
 ul{
@@ -136,7 +141,8 @@ ul{
 	padding: 10px;
 }
 #apropos p{
-	padding: 10px;
+	padding: 0 40px 0 40px;
+	text-align: justify;
 }
 
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
