@@ -27,11 +27,11 @@ figure{
 	margin: 80px 0;
 }
 
-#prenom h2{
+#prenom h3{
 	margin-top: 0;
 }
 
-#prenom h1{
+#prenom h2{
 	margin-bottom: 0;
 }
 
@@ -47,6 +47,20 @@ figure{
 #information-perso h2{ 
 	background-color: #d4b483;
 	padding-left: 10px;	
+	text-align: center;
+}
+
+.contact a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	 background-color:#d4b483;
+}
+
+.contact li{
+	margin-bottom: 15px;
 }
 
 #loisir{
